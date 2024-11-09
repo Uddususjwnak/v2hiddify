@@ -1,6 +1,6 @@
 {
   "general": {
-    "appTitle": "V2Hiddify",
+    "appTitle": "Zi You To",
     "reset": "重置",
     "toggle": {
       "enabled": "启用",
@@ -37,22 +37,22 @@
     "pageTitle": "主页",
     "emptyProfilesMsg": "从添加订阅配置文件开始",
     "noActiveProfileMsg": "选择配置文件",
-    "noSubscriptionMsg": "当前账户没有可用订阅，请前往套餐购买页面，购买相应的套餐后使用",
+    "noSubscriptionMsg": "当前账户没有可用购买，请前往套餐购买页面，购买相应的套餐后使用",
     "goToPurchasePage": "前往购买套餐"
   },
   "purchase": {
-    "pageTitle": "套餐",
+    "pageTitle": "购买会员",
     "noAccessToken": "未找到访问令牌，请重新登录。",
     "fetchPlansError": "加载失败: ",
     "noPlans": "没有可用的套餐",
     "priceLabel": "价格: ¥",
     "rmb": "元",
-    "subscribeSuccess": "成功订阅",
+    "subscribeSuccess": "成功购买",
     "addSubscriptionError": "添加订阅时发生错误: ",
     "subscriptionAdded": "成功添加订阅并设置为活动配置文件！",
     "noSubscriptionLink": "无法获取订阅链接",
     "goToLogin": "请重新登录",
-    "subscriptionDuration":"请选择订阅时长",
+    "subscriptionDuration":"请选择会员时长",
     "monthPrice": "月付价格",
     "quarterPrice": "季付价格",
     "halfYearPrice": "半年付价格",
@@ -107,13 +107,13 @@
     }
   },
   "userInfo": {
-    "pageTitle": "用户信息",
+    "pageTitle": "🎁邀请有礼",
     "balance": "余额",
     "onlyForConsumption": "仅消费用",
-    "commissionBalance": "剩余佣金",
+    "commissionBalance": "剩余礼金",
     "currency": "元",
     "transferEnable": "数据流量",
-    "plan": "套餐",
+    "plan": "购买会员",
     "expiredAt": "到期时间",
     "lastLogin": "最后登录",
     "noData": "没有可用的数据",
@@ -137,13 +137,13 @@
     "inviteCodeGenerateError": "生成邀请码失败"
   },
   "transferDialog": {
-    "transferTitle": "推广佣金划转至余额",
+    "transferTitle": "推广礼金划转至余额",
     "transferHint": "划转后的余额仅用于消费使用。",
-    "currentBalance": "当前推广佣金余额",
+    "currentBalance": "当前推广礼金余额",
     "transferAmount": "划转金额",
-    "transferSuccess": "佣金划转成功！",
-    "transferError": "佣金划转失败",
-    "withdrawTitle": "提现推广佣金",
+    "transferSuccess": "礼金划转成功！",
+    "transferError": "礼金划转失败",
+    "withdrawTitle": "提现推广礼金",
     "withdrawHint": "请输入要提现的金额。",
     "withdrawAmount": "提现金额",
     "withdrawSuccess": "提现申请成功！",
@@ -296,7 +296,7 @@
     }
   },
   "proxies": {
-    "pageTitle": "代理",
+    "pageTitle": "节点选择",
     "emptyProxiesMsg": "无可用的代理",
     "delayTestTooltip": "测试延迟",
     "sortTooltip": "对代理进行排序",
@@ -383,7 +383,7 @@
       "perAppProxyModes": {
         "off": "全部",
         "offMsg": "代理所有应用程序",
-        "include": "代理",
+        "include": "选择线路",
         "includeMsg": "仅代理选定的应用程序",
         "exclude": "绕过",
         "excludeMsg": "不代理选中的应用程序"
@@ -410,7 +410,7 @@
     "pageTitle": "关于",
     "version": "版本",
     "sourceCode": "源代码",
-    "telegramChannel": "Telegram 频道",
+    "telegramChannel": "进入官网",
     "checkForUpdate": "检查更新",
     "privacyPolicy": "隐私政策",
     "termsAndConditions": "条款和条件"
@@ -426,7 +426,7 @@
     "ignoreBtnTxt": "忽略"
   },
   "tray": {
-    "dashboard": "仪表板",
+    "dashboard": "主页",
     "quit": "退出",
     "open": "打开",
     "status": {
@@ -482,7 +482,7 @@
   "play": {
     "title": "Hiddify（预览）",
     "short_description": "自动，SSH, VLESS, Vmess, Trojan, Reality, Sing-Box, Clash, Xray, Shadowsocks",
-    "full_description": "Hiddify 的主要目标是提供安全、用户友好且高效的隧道客户端。它使您能够利用 VPN 服务权限将所有流量或选定的应用程序流量路由到您选择的远程服务器。\n\n注：我们不提供任何服务器；用户需要使用自己托管的服务器或可信的服务器来确保您在线活动的私密性。\n \n我们支持以下类型的服务器：\n- 普通 V2ray/Xray 订阅链接\n- Clash 订阅链接\n- Sing-Box 订阅链接\n\n我们的特色是什么？\n\n- 用户友好\n- 优化和高速\n- 自动选择最低延迟\n- 显示用户使用信息\n- 通过一键链接轻松导入\n- 免费且无广告\n- 轻松切换线路\n- 等等\n\n支持：\n- Sing-Box 支持的所有协议\n- VLESS + XTLS Reality、Vision 协议\n- VMESS\n- Trojan\n- ShadowSocks\n- Reality\n- WireGuard\n- V2ray\n- Hystria2\n- TUIC\n- SSH\n- ShadowTLS\n\n\n源代码位于 https://github.com/hiddify/Hiddify-Next\n应用程序核心基于开源的 Sing-Box。\n\n权限说明：\n\n- VPN 服务：由于此应用程序的目标是提供安全、用户友好和高效的隧道客户端，我们需要此权限以能够通过隧道将流量路由到远程服务器。\n获取应用程序列表：此权限用于允许用户包括或排除特定应用程序以进行隧道传输。\n- 接收开机广播：可以从应用程序设置中启用或禁用此权限，以便在设备启动时激活此应用程序。\n- 发送通知：此权限是必需的，因为我们使用前台服务来确保 VPN 服务的持续运行。\n- 本应用程序没有广告。分析和崩溃数据仅在首次使用应用程序时经用户明确同意的情况下发生。"
+    "full_description": "ZIYOUTO 的主要目标是提供安全、用户友好且高效的隧道客户端。它使您能够利用 VPN 服务权限将所有流量或选定的应用程序流量路由到您选择的远程服务器。\n\n注：我们不提供任何服务器；用户需要使用自己托管的服务器或可信的服务器来确保您在线活动的私密性。\n \n我们支持以下类型的服务器：\n- 普通 V2ray/Xray 订阅链接\n- Clash 订阅链接\n- Sing-Box 订阅链接\n\n我们的特色是什么？\n\n- 用户友好\n- 优化和高速\n- 自动选择最低延迟\n- 显示用户使用信息\n- 通过一键链接轻松导入\n- 免费且无广告\n- 轻松切换线路\n- 等等\n\n支持：\n- Sing-Box 支持的所有协议\n- VLESS + XTLS Reality、Vision 协议\n- VMESS\n- Trojan\n- ShadowSocks\n- Reality\n- WireGuard\n- V2ray\n- Hystria2\n- TUIC\n- SSH\n- ShadowTLS\n\n\n源代码位于 https://github.com/hiddify/Hiddify-Next\n应用程序核心基于开源的 Sing-Box。\n\n权限说明：\n\n- VPN 服务：由于此应用程序的目标是提供安全、用户友好和高效的隧道客户端，我们需要此权限以能够通过隧道将流量路由到远程服务器。\n获取应用程序列表：此权限用于允许用户包括或排除特定应用程序以进行隧道传输。\n- 接收开机广播：可以从应用程序设置中启用或禁用此权限，以便在设备启动时激活此应用程序。\n- 发送通知：此权限是必需的，因为我们使用前台服务来确保 VPN 服务的持续运行。\n- 本应用程序没有广告。分析和崩溃数据仅在首次使用应用程序时经用户明确同意的情况下发生。"
   },
   "connection": {
     "tapToConnect": "点击连接",
