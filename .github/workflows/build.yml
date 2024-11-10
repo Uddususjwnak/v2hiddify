@@ -90,4 +90,3 @@ jobs:
           name: windows
           path: ./out
           retention-days: 1
-
