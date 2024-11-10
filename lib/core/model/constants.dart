@@ -7,8 +7,8 @@ abstract class Constants {
       "https://github.com/hiddify/hiddify-next/releases/latest";
   static const appCastUrl =
       "https://raw.githubusercontent.com/hiddify/hiddify-next/main/appcast.xml";
-  static const telegramChannelUrl = "https://w.ziyouto.org";
-  static const privacyPolicyUrl = "https://hiddify.com/privacy-policy/";
+  static const telegramChannelUrl = "https://ziyouto.九品堂.com/";
+  static const privacyPolicyUrl = "https://privacy.ziyouto.us/";
   static const termsAndConditionsUrl = "https://hiddify.com/terms/";
   static const cfWarpPrivacyPolicy =
       "https://www.cloudflare.com/application/privacypolicy/";
