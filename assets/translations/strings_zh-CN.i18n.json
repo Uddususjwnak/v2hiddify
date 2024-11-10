@@ -409,11 +409,11 @@
   "about": {
     "pageTitle": "官网",
     "version": "版本",
-    "sourceCode": "源代码",
-    "telegramChannel": "进入官网",
+    "sourceCode": "进入官网",
+    "telegramChannel": "备用官网",
     "checkForUpdate": "检查更新",
     "privacyPolicy": "隐私政策",
-    "termsAndConditions": "备用官网"
+    "termsAndConditions": "备用官网2"
   },
   "appUpdate": {
     "notAvailableMsg": "已是最新版本",
